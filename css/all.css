@@ -683,7 +683,7 @@ h6, .h6 {
 /* ------- banner 橫幅 ------------- */
 .banner-primary {
   height: 787px;
-  background-image: url(../../images/home-header.png);
+  background: url(../../images/home-header.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -915,46 +915,5 @@ h6, .h6 {
   }
   .formArea .contact input[type=submit] {
     width: 100%;
-  }
-}
-
-/* ------- header 表頭 ------------- */
-.navbar-wrap h1 a {
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 80px;
-  height: 48px;
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap;
-}
-@media (max-width: 768px) {
-  .navbar-wrap {
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    max-width: 100%;
-  }
-  .navbar-wrap h1 {
-    align-self: flex-start;
-  }
-  .navbar-wrap h1 a {
-    margin: 0 0 16px 15px;
-  }
-  .navbar-wrap .navbar-menu {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .navbar-wrap .navbar-menu li {
-    width: calc(50% - 2px);
-    border: 1px solid #ffffff;
-  }
-  .navbar-wrap .navbar-menu a {
-    padding: 12px 0;
-    margin: 0;
-    text-align: center;
   }
 }
