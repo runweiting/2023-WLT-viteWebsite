@@ -6,7 +6,7 @@
 $max: 12;
 @for $i from 1 through $max {
     .col-#{$i} {
-        width: ($i / 12) * 100%;
+        width: calc($i / 12) * 100%;
     }
 }
 

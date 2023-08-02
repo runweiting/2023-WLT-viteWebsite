@@ -531,7 +531,7 @@ h6, .h6 {
 }
 
 .navbar-wrap h1 a {
-  background-image: url(../../images/logo-white.png);
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -683,10 +683,10 @@ h6, .h6 {
 /* ------- banner 橫幅 ------------- */
 .banner-primary {
   height: 787px;
-  background-image: url("../../images/home-header.png");
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 .banner-primary .container {
   height: 100%;
@@ -698,7 +698,7 @@ h6, .h6 {
 @media (max-width: 568px) {
   .banner-primary {
     height: 396px;
-    background-image: url(../../images/home-header-sm.png);
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
   }
   .banner-primary h2 {
     margin-bottom: 8px;
@@ -779,7 +779,7 @@ h6, .h6 {
 /* ------- 聯名鏡框 ------------- */
 .banner-secondary {
   max-height: 608px;
-  background-image: url(../../images/index-bg.png);
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -808,13 +808,13 @@ h6, .h6 {
 }
 @media (max-width: 768px) {
   .banner-secondary {
-    background-image: url(../../images/index-bg-md.png);
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true);
   }
 }
 @media (max-width: 568px) {
   .banner-secondary {
     max-height: 820px;
-    background-image: url(../../images/index-bg-sm.png);
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true);
   }
   .banner-secondary .container {
     padding-top: 40px;
