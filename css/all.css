@@ -683,10 +683,10 @@ h6, .h6 {
 /* ------- banner 橫幅 ------------- */
 .banner-primary {
   height: 787px;
-  background: url(../../images/home-header.png);
+  background-image: url("../../images/home-header.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 .banner-primary .container {
   height: 100%;
@@ -703,7 +703,9 @@ h6, .h6 {
   .banner-primary h2 {
     margin-bottom: 8px;
   }
-} /* ------- 服務特點 ------------- */
+}
+
+/* ------- 服務特點 ------------- */
 @media (max-width: 568px) {
   .feature {
     padding-top: 40px;

@@ -5,7 +5,12 @@
     white-space: nowrap;
 }
 /* ======= 02 background-image ======= */
-
+@mixin bg-cover($url) {
+    background-image: url($url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* ======= 03 media queries ======= */
 @mixin ipad {
