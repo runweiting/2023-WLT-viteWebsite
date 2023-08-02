@@ -531,7 +531,7 @@ h6, .h6 {
 }
 
 .navbar-wrap h1 a {
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
+  background-image: url(../../images/logo-white.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
