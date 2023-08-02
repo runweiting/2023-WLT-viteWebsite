@@ -1,4 +1,96 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.subnav {
+  padding-top: 48px;
+  padding-bottom: 32px;
+  @include iphone {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 20px;
+  }
+  .subnavBox {
+    @include ipad {
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    @include iphone {
+      margin-bottom: 0;
+    }
+  }
+  .subnav-menu {
+    li:nth-child(1) a {
+      padding-left: 0;
+    }
+    a {
+      @include ipad {
+        margin-right: 0;
+        padding: 8px 24px;
+      }
+    }
+    @include iphone {
+      display: none;
+    }
+  }
+  .subnav-icon-m {
+    li:nth-child(3) a {
+      margin-right: 0;
+    }
+    a {
+      @include ipad {
+        margin-right: 16px;
+      }
+    }
+    img {
+      height: 48px;
+      @include ipad {
+        height: 40px;
+      }
+      @include moblie {
+        height: 24px;
+      }
+    }
+    @include iphone {
+      gap: 16px;
+    }
+    @include moblie {
+      gap: 8px;
+    }
+    li a {
+      @include iphone {
+        margin: 0;
+      }
+    }
+  }
+  .subnav-icon-l {
+    @include iphone {
+      margin: 0;
+      .material-symbols-outlined {
+        font-size: 18px;
+        margin-right: 10px;
+      }
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+}
+.copyright {
+  @include ipad {
+    padding: 32px 40px;
+  }
+  @include iphone {
+    padding: 20px 15px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      a {
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+  }
 }

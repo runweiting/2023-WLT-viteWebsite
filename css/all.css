@@ -282,7 +282,7 @@ input[type=submit] {
   width: 100%;
 }
 
-/* ======= 02 border ======= */
+/* ======= 02 border =============== */
 .border-bottom {
   border-bottom: 1px solid #ffffff;
 }
@@ -380,7 +380,124 @@ h6, .h6 {
 }
 
 /* ======= 05 text-decoration ======= */
-/* ======= 01 ======= */
+/* ======= 01 margin ============ */
+.ms-auto {
+  margin-left: auto;
+}
+
+.me-auto {
+  margin-right: auto;
+}
+
+.m0-auto {
+  margin: 0 auto;
+}
+
+/*--------------------------------*/
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+/*--------------------------------*/
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
+/*--------------------------------*/
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-18 {
+  margin-bottom: 4.5rem;
+}
+
+/* ======= 06 padding =========== */
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+/*--------------------------------*/
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+/*--------------------------------*/
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .d-flex {
   display: flex;
 }
@@ -413,16 +530,197 @@ h6, .h6 {
   flex-wrap: wrap;
 }
 
-.header {
-  background: #69F0AE;
-  font-size: 64px;
+.navbar-wrap h1 a {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 80px;
+  height: 48px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .navbar-wrap {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: 100%;
+  }
+  .navbar-wrap h1 {
+    align-self: flex-start;
+  }
+  .navbar-wrap h1 a {
+    margin: 0 0 16px 15px;
+  }
+  .navbar-wrap .navbar-menu {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .navbar-wrap .navbar-menu li {
+    width: calc(50% - 2px);
+    border: 1px solid #ffffff;
+  }
+  .navbar-wrap .navbar-menu a {
+    padding: 12px 0;
+    margin: 0;
+    text-align: center;
+  }
 }
 
-.footer {
-  background: #69F0AE;
-  font-size: 64px;
+.subnav {
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+@media (max-width: 768px) {
+  .subnav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .subnav .subnavBox {
+    align-items: center;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .subnav .subnavBox {
+    margin-bottom: 0;
+  }
+}
+.subnav .subnav-menu li:nth-child(1) a {
+  padding-left: 0;
+}
+@media (max-width: 992px) {
+  .subnav .subnav-menu a {
+    margin-right: 0;
+    padding: 8px 24px;
+  }
+}
+@media (max-width: 768px) {
+  .subnav .subnav-menu {
+    display: none;
+  }
+}
+.subnav .subnav-icon-m li:nth-child(3) a {
+  margin-right: 0;
+}
+@media (max-width: 992px) {
+  .subnav .subnav-icon-m a {
+    margin-right: 16px;
+  }
+}
+.subnav .subnav-icon-m img {
+  height: 48px;
+}
+@media (max-width: 992px) {
+  .subnav .subnav-icon-m img {
+    height: 40px;
+  }
+}
+@media (max-width: 568px) {
+  .subnav .subnav-icon-m img {
+    height: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .subnav .subnav-icon-m {
+    gap: 16px;
+  }
+}
+@media (max-width: 568px) {
+  .subnav .subnav-icon-m {
+    gap: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .subnav .subnav-icon-m li a {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .subnav .subnav-icon-l {
+    margin: 0;
+  }
+  .subnav .subnav-icon-l .material-symbols-outlined {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .subnav .subnav-icon-l a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .copyright {
+    padding: 32px 40px;
+  }
+}
+@media (max-width: 768px) {
+  .copyright {
+    padding: 20px 15px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .copyright ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .copyright ul a {
+    font-size: 16px;
+    margin: 0;
+  }
 }
 
 .index-title {
   font-size: 100px;
+}
+
+/* ------- header 表頭 ------------- */
+.navbar-wrap h1 a {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 80px;
+  height: 48px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .navbar-wrap {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: 100%;
+  }
+  .navbar-wrap h1 {
+    align-self: flex-start;
+  }
+  .navbar-wrap h1 a {
+    margin: 0 0 16px 15px;
+  }
+  .navbar-wrap .navbar-menu {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .navbar-wrap .navbar-menu li {
+    width: calc(50% - 2px);
+    border: 1px solid #ffffff;
+  }
+  .navbar-wrap .navbar-menu a {
+    padding: 12px 0;
+    margin: 0;
+    text-align: center;
+  }
 }
