@@ -65,12 +65,14 @@ a {
         opacity: 0.5;
     }
 }
+/*--------------------------------*/
 *,*::before,::after {
     box-sizing: border-box;
 }
 /*{
 outline: 1px solid yellowgreen;
 }*/
+/*--------------------------------*/
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -101,6 +103,7 @@ outline: 1px solid yellowgreen;
     font-size: 2.25rem;
     color: #ffffff;
 }
+/*--------------------------------*/
 button {
 	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 	border: none;
