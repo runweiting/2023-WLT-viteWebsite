@@ -1,53 +1,47 @@
-/* ======= 01 h1-h6 ======= */
-h1, .h1 {
-	font-size: $h1-font-size;
-	font-weight: 700;
-    @include iphone {
-        font-size: 54px;
-    }
-    @include moblie {
-        font-size: 40px;
-    }
-    @include moblie-s {
-        font-size: 24px;
-    }
+/* ======= 01 font-size ======= */
+.text-sm {
+    font-size: $font-size-base * 0.875; //14px
 }
-h2, .h2 {
-	font-size: $h2-font-size;
-	font-weight: 700;
-    @include iphone {
-        font-size: 32px;
-    }
-    @include moblie {
-        font-size: 24px;
-    }
+.text-base {
+    font-size: $font-size-base; //16px
 }
-h3, .h3 {
-	font-size: $h3-font-size;
-    @include iphone {
-        font-size: 24px;
-    }
-    @include moblie-s {
-        font-size: 16px;
-    }
+.text-lg {
+    font-size: $font-size-base * 1.125; //18px
 }
-h4, .h4 {
-	font-size: $h4-font-size;
-    font-weight: 700;
+.text-xl {
+    font-size: $font-size-base * 1.1875; //19px
 }
-h5, .h5 {
-	font-size: $h5-font-size;
-    @include moblie {
-        font-size: 16px;
-    }
+.text-2xl {
+    font-size: $font-size-base * 1.25; //20px
 }
-h6, .h6 {
-	font-size: $h6-font-size;
+.text-3xl {
+    font-size: $font-size-base * 1.5;//24px
+}
+.text-4xl {
+    font-size: $font-size-base * 2;//32px
+}
+.text-5xl {
+    font-size: $font-size-base * 2.25;//36px
+}
+.text-6xl {
+    font-size: $font-size-base * 2.625;//42px
+}
+.text-7xl {
+    font-size: $font-size-base * 3;//48px
+}
+.text-8xl {
+    font-size: $font-size-base * 4;//64px
 }
 
 /* ======= 02 font-weight ======= */
 .fw-medium {
     font-weight: 500;
+}
+.fw-bold {
+    font-weight: 700;
+}
+.fw-black {
+    font-weight: 900;
 }
 
 /* ======= 03 font-style ======= */

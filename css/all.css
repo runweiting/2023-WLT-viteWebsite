@@ -299,77 +299,62 @@ input[type=submit] {
   border-radius: 4px;
 }
 
-/* ======= 01 h1-h6 ======= */
-h1, .h1 {
-  font-size: 4rem;
-  font-weight: 700;
-}
-@media (max-width: 768px) {
-  h1, .h1 {
-    font-size: 54px;
-  }
-}
-@media (max-width: 568px) {
-  h1, .h1 {
-    font-size: 40px;
-  }
-}
-@media (max-width: 414px) {
-  h1, .h1 {
-    font-size: 24px;
-  }
+/* ======= 01 font-size ======= */
+.text-sm {
+  font-size: 0.875rem;
 }
 
-h2, .h2 {
-  font-size: 3rem;
-  font-weight: 700;
-}
-@media (max-width: 768px) {
-  h2, .h2 {
-    font-size: 32px;
-  }
-}
-@media (max-width: 568px) {
-  h2, .h2 {
-    font-size: 24px;
-  }
+.text-base {
+  font-size: 1rem;
 }
 
-h3, .h3 {
-  font-size: 2.25rem;
-}
-@media (max-width: 768px) {
-  h3, .h3 {
-    font-size: 24px;
-  }
-}
-@media (max-width: 414px) {
-  h3, .h3 {
-    font-size: 16px;
-  }
+.text-lg {
+  font-size: 1.125rem;
 }
 
-h4, .h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
+.text-xl {
+  font-size: 1.1875rem;
 }
 
-h5, .h5 {
+.text-2xl {
   font-size: 1.25rem;
 }
-@media (max-width: 568px) {
-  h5, .h5 {
-    font-size: 16px;
-  }
+
+.text-3xl {
+  font-size: 1.5rem;
 }
 
-h6, .h6 {
-  font-size: 0.875rem;
+.text-4xl {
+  font-size: 2rem;
+}
+
+.text-5xl {
+  font-size: 2.25rem;
+}
+
+.text-6xl {
+  font-size: 2.625rem;
+}
+
+.text-7xl {
+  font-size: 3rem;
+}
+
+.text-8xl {
+  font-size: 4rem;
 }
 
 /* ======= 02 font-weight ======= */
 .fw-medium {
   font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-black {
+  font-weight: 900;
 }
 
 /* ======= 03 font-style ======= */
