@@ -1,33 +1,37 @@
 .subnav {
   padding-top: 48px;
   padding-bottom: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
   @include iphone {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  @include moblie {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 20px;
   }
-  .subnavBox {
-    @include ipad {
-      align-items: center;
-      margin-bottom: 24px;
-    }
-    @include iphone {
-      margin-bottom: 0;
-    }
+}
+.subnavBox {
+  @include iphone {
+    align-items: center;
+    margin-bottom: 24px;
   }
+}
   .subnav-menu {
     li:nth-child(1) a {
       padding-left: 0;
     }
     a {
-      @include ipad {
+      @include iphone {
         margin-right: 0;
         padding: 8px 24px;
       }
     }
-    @include iphone {
+    @include moblie {
       display: none;
     }
   }
@@ -35,14 +39,19 @@
     li:nth-child(3) a {
       margin-right: 0;
     }
+    li a {
+      @include iphone {
+        margin: 0;
+      }
+    }
     a {
-      @include ipad {
+      @include iphone {
         margin-right: 16px;
       }
     }
     img {
       height: 48px;
-      @include ipad {
+      @include iphone {
         height: 40px;
       }
       @include moblie {
@@ -55,30 +64,23 @@
     @include moblie {
       gap: 8px;
     }
-    li a {
-      @include iphone {
-        margin: 0;
-      }
-    }
+    
   }
   .subnav-icon-l {
-    @include iphone {
+    @include moblie {
       margin: 0;
       .material-symbols-outlined {
         font-size: 18px;
         margin-right: 10px;
       }
-      a {
-        font-size: 16px;
-      }
     }
   }
-}
+
 .copyright {
-  @include ipad {
-    padding: 32px 40px;
-  }
   @include iphone {
+    padding: 32px 24px 40px;
+  }
+  @include moblie {
     padding: 20px 15px 24px;
     flex-direction: column;
     align-items: flex-start;
@@ -87,10 +89,6 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 8px;
-      a {
-        font-size: 16px;
-        margin: 0;
-      }
     }
   }
 }

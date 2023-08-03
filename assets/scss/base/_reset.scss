@@ -78,20 +78,18 @@ outline: 1px solid yellowgreen;
     margin: 0 auto;
     padding: 0 12px;
     @include ipad {
-        max-width: 944px;
+        max-width: 968px;
     }
     @include iphone {
-        max-width: 720px;
-        padding-left: 36px;
-        padding-right: 36px;
+        max-width: 744px;
+		padding: 0 24px;
     }
     @include moblie {
-        max-width: 520px;
-        padding-left: 15px;
-        padding-right: 15px;
+        max-width: 544px;
+		padding: 0 14px;
     }
     @include moblie-s {
-        max-width: 366px;
+        max-width: 390px;
     }
 }
 .material-symbols-outlined {
