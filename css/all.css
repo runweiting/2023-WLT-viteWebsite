@@ -283,8 +283,15 @@ input[type=submit] {
 }
 
 /* ======= 02 border =============== */
-.border-bottom {
+.border-white {
   border-bottom: 1px solid #ffffff;
+}
+
+.border-light {
+  border: 1px solid #DCDCDC;
+}
+.border-light:hover {
+  border-bottom: 8px solid #AA0601;
 }
 
 .box-shadow {
