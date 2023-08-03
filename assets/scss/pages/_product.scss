@@ -31,3 +31,25 @@
     height: 24px;
     border-radius: 4px;
 }
+.pagination li {
+    border: 1px solid #555555;
+    &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+        a {
+            padding: 11.75px 16px;
+            &:hover {
+                background-color: $black;
+                color: $white;
+                opacity: 1;
+            }
+        }
+    }
+    &:nth-child(1), &:nth-child(7) {
+        a {
+            padding: 11px 12px;
+            &:hover {
+                background-color: #F2F2F2;
+                opacity: 1;
+            }
+        }
+    }
+}
