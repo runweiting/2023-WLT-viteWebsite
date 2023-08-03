@@ -686,9 +686,8 @@ h6, .h6 {
 
 /* ------- banner 橫幅 ------------- */
 .banner-primary {
-  width: 100vw;
   height: 787px;
-  background-image: url("../../images/home-header.png");
+  background-image: url("assets/images/home-header.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
