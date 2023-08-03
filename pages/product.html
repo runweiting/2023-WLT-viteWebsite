@@ -9,14 +9,41 @@
   <body>
     <%- include('./layout/header'); -%>
     
-    <!------- product-menu ------------->
+    <!------- product-menu ------------>
     <nav class="container">
-      <ul class="product-menu">
-        <li><a href="#">OPTICAL</a></li>
-        <li><a href="#">SUNGLASSES</a></li>
-        <li><a href="#">FUNCTIONAL</a></li>
+      <ul class="product-menu row d-flex text-center">
+        <li><a class="text-4xl text-md-4xl text-sm-4xl fw-medium py-6" href="#">OPTICAL</a></li>
+        <li><a class="text-4xl text-md-4xl text-sm-4xl fw-medium py-6" href="#">SUNGLASSES</a></li>
+        <li><a class="text-4xl text-md-4xl text-sm-4xl fw-medium py-6" href="#">FUNCTIONAL</a></li>
       </ul>
     </nav>
+    <!------- banner 橫幅 -------------->
+    <div class="d-flex">
+      <div class="banner-product"></div>
+      <div class="banner-model"></div>
+    </div>
+    <!------- product 經典鏡框 --------->
+    <div class="product container py-20 text-center">
+      <h4 class="text-6xl text-sm-6xl fw-medium">Celluloid Combi</h4>
+      <h3 class="text-4xl text-sm-4xl mb-8">賽璐珞鈦金屬混合鏡框</h3>
+      <ul class="product-content row d-flex flex-wrap">
+        <li class="col-3">
+          <img src="../assets/images/product-1.png" alt="product-1">
+          <div class="item-text d-flex justify-content-between">
+            <span class="text-3xl">BJ41600S</span>
+            <span class="text-3xl fw-medium color-primary">NTD3,490</span>
+          </div>
+          <div class="d-flex">
+            <a class="item-icon bg-link-dark mr-2" href="#"></a>
+            <a class="item-icon bg-link-light" href="#"></a>
+          </div>
+        </li>
+      </ul>
+
+      
+      <div class="pagination"></div>
+    </div>
+
     
     
 

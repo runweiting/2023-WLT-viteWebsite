@@ -14,16 +14,9 @@ $max: 12;
 .border-white {
     border-bottom: 1px solid $white;
 }
-.border-light {
-    border: 1px solid #DCDCDC;
-    &:hover {
-        border-bottom: 8px solid $color-primary;
-    }
-}
 .border-dark {
     border: 1px solid #555555;
 }
-
 .box-shadow {
     box-shadow: 0px 4px 6px #00000029;
     border-radius: 4px;

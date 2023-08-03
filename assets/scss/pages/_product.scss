@@ -1,0 +1,30 @@
+/* ------- product-menu ------------- */
+.product-menu {
+    li {
+        width: calc(100% / 3);
+        a {
+            border: 1px solid #DCDCDC;
+            &:hover {
+                border-bottom: 8px solid $color-primary;
+                opacity: 1;
+            }
+        }
+    }
+}
+/* ------- banner 橫幅 --------------- */
+.banner-product {
+    width: 50%;
+    height: 296px;
+    @include bg-cover('../images/product-header-1.png');
+}
+.banner-model {
+    width: 50%;
+    height: 296px;
+    @include bg-cover('../images/product-header-2.png')
+}
+/* ------- product 經典鏡框 ---------- */
+.item-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}

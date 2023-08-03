@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
 /* ======= 01 font-family ======= */
 /* ======= 02 color ============= */
-/*$border-color: ;/
 /*--------------------------------*/
 .color-primary {
   color: #AA0601;
@@ -34,11 +33,14 @@
   background-color: #ffffff;
 }
 
-/* ======= 03 border ============= */
-/*$border-light: ;
-$border-dark: ;/
+.bg-link-light {
+  background-color: #B75929;
+}
 
-/* ======= 04 spacing ============= */
+.bg-link-dark {
+  background-color: #5F3E2D;
+}
+
 /* ======= 01 utils ======= */
 /* ======= 02 background-image ======= */
 /* ======= 03 media queries ======= */
@@ -288,13 +290,6 @@ input[type=submit] {
   border-bottom: 1px solid #ffffff;
 }
 
-.border-light {
-  border: 1px solid #DCDCDC;
-}
-.border-light:hover {
-  border-bottom: 8px solid #AA0601;
-}
-
 .border-dark {
   border: 1px solid #555555;
 }
@@ -353,6 +348,9 @@ input[type=submit] {
   .text-md-2xl {
     font-size: 1rem;
   }
+  .text-md-4xl {
+    font-size: 1.5rem;
+  }
   .text-md-8xl {
     font-size: 3.375rem;
   }
@@ -360,6 +358,12 @@ input[type=submit] {
 @media (max-width: 568px) {
   .text-sm-sm {
     font-size: 1rem;
+  }
+  .text-sm-4xl {
+    font-size: 1.5rem;
+  }
+  .text-sm-6xl {
+    font-size: 1.5rem;
   }
   .text-sm-5xl {
     font-size: 1.5rem;
@@ -436,6 +440,10 @@ input[type=submit] {
 /*--------------------------------*/
 .mr-1 {
   margin-right: 0.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mr-5 {
@@ -520,6 +528,11 @@ input[type=submit] {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-8 {
@@ -961,4 +974,42 @@ input[type=submit] {
   .formArea .contact input[type=submit] {
     width: 100%;
   }
+}
+
+/* ------- product-menu ------------- */
+.product-menu li {
+  width: 33.3333333333%;
+}
+.product-menu li a {
+  border: 1px solid #DCDCDC;
+}
+.product-menu li a:hover {
+  border-bottom: 8px solid #AA0601;
+  opacity: 1;
+}
+
+/* ------- banner 橫幅 --------------- */
+.banner-product {
+  width: 50%;
+  height: 296px;
+  background: url("../images/product-header-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-model {
+  width: 50%;
+  height: 296px;
+  background: url("../images/product-header-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ------- product 經典鏡框 ---------- */
+.item-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
 }

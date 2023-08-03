@@ -36,6 +36,9 @@
     .text-md-2xl {
         font-size: $font-size-base;
     }
+    .text-md-4xl {
+        font-size: $font-size-base *1.5;
+    }
     .text-md-8xl {
         font-size: $font-size-base * 3.375;
     }
@@ -43,6 +46,12 @@
 @media (max-width: 568px) {
     .text-sm-sm {
         font-size: $font-size-base;
+    }
+    .text-sm-4xl {
+        font-size: $font-size-base * 1.5;
+    }
+    .text-sm-6xl {
+        font-size: $font-size-base * 1.5;
     }
     .text-sm-5xl {
         font-size: $font-size-base * 1.5;

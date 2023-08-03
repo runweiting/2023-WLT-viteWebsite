@@ -9,34 +9,35 @@ $color-light: #FBF2F2;
 $black: #000000;
 $grey: #707070;
 $white: #ffffff;
-/*$border-color: ;/
+$link-light: #B75929;
+$link-dark: #5F3E2D;
+
 /*--------------------------------*/
 .color-primary {
-color: $color-primary;
+    color: $color-primary;
 }
 .color-secondary {
-color: $color-secondary;
+    color: $color-secondary;
 }
 .grey {
-color: $grey;
+    color: $grey;
 }
 .white {
-color: #ffffff;
+    color: #ffffff;
 }
 /*--------------------------------*/
 .bg-primary {
-background-color: $color-primary;
+    background-color: $color-primary;
 }
 .bg-light {
-background-color: $color-light;
+    background-color: $color-light;
 }
 .bg-white {
-background-color: #ffffff;
+    background-color: #ffffff;
 }
-
-/* ======= 03 border ============= */
-/*$border-light: ;
-$border-dark: ;/
-
-/* ======= 04 spacing ============= */
-$spacing : 8px;
+.bg-link-light {
+    background-color: $link-light;
+}
+.bg-link-dark {
+    background-color: $link-dark;
+}
