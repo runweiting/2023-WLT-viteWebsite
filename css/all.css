@@ -348,9 +348,6 @@ input[type=submit] {
   .text-md-2xl {
     font-size: 1rem;
   }
-  .text-md-7xl {
-    font-size: 2rem;
-  }
   .text-md-8xl {
     font-size: 3.375rem;
   }
@@ -363,7 +360,7 @@ input[type=submit] {
     font-size: 1.5rem;
   }
   .text-sm-7xl {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .text-sm-8xl {
     font-size: 2.5rem;
@@ -372,6 +369,9 @@ input[type=submit] {
 @media (max-width: 414px) {
   .text-xs-5xl {
     font-size: 1rem;
+  }
+  .text-xs-7xl {
+    font-size: 1.5rem;
   }
   .text-xs-8xl {
     font-size: 1.5rem;
