@@ -11,7 +11,7 @@
     }
     @include moblie {
         height: 396px;
-        background: url('../images/home-header-sm.png');
+        @include bg-cover('../images/home-header-sm.png');
         h2 {
             margin-bottom: 8px;
         }
@@ -88,10 +88,7 @@
 /* ------- 聯名鏡框 ------------- */
 .banner-secondary {
     max-height: 608px;
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    @include bg-cover('../images/index-bg.png');
     .container {
         height: 100%;
     }
@@ -113,11 +110,11 @@
         }
     }
     @include iphone {
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true);
+        @include bg-cover('../images/index-bg-md.png');
     }
     @include moblie {
         max-height: 820px;
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true);
+        @include bg-cover('../images/index-bg-sm.png');
         .container {
             padding-top: 40px;
             padding-bottom: 40px;

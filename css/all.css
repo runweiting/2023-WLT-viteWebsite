@@ -703,6 +703,9 @@ h6, .h6 {
   .banner-primary {
     height: 396px;
     background: url("../images/home-header-sm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .banner-primary h2 {
     margin-bottom: 8px;
@@ -783,10 +786,10 @@ h6, .h6 {
 /* ------- 聯名鏡框 ------------- */
 .banner-secondary {
   max-height: 608px;
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
+  background: url("../images/index-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 .banner-secondary .container {
   height: 100%;
@@ -812,13 +815,19 @@ h6, .h6 {
 }
 @media (max-width: 768px) {
   .banner-secondary {
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true);
+    background: url("../images/index-bg-md.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 @media (max-width: 568px) {
   .banner-secondary {
     max-height: 820px;
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true);
+    background: url("../images/index-bg-sm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .banner-secondary .container {
     padding-top: 40px;
