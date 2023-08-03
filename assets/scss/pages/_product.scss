@@ -23,6 +23,9 @@
     @include bg-cover('../images/product-header-2.png')
 }
 /* ------- product 經典鏡框 ---------- */
+.product-content {
+    row-gap: 80px;
+}
 .item-icon {
     width: 24px;
     height: 24px;
