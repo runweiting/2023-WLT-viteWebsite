@@ -11,7 +11,7 @@
     }
     @include moblie {
         height: 396px;
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
+        background: url('../images/home-header-sm.png');
         h2 {
             margin-bottom: 8px;
         }
