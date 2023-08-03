@@ -1,7 +1,7 @@
 /* ------- banner 橫幅 ------------- */
 .banner-primary {
     height: 787px;
-    @include bg-cover('assets/images/home-header.png');
+    @include bg-cover('../images/home-header.png');
     .container {
         height: 100%;
     }

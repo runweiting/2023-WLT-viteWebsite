@@ -1,11 +1,8 @@
 .navbar-wrap {
   h1 a {
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     width: 80px;
     height: 48px;
+    @include bg-cover('../images/logo-white.png');
     @include hide-text;
   }
   @include iphone {

@@ -6,7 +6,7 @@
 }
 /* ======= 02 background-image ======= */
 @mixin bg-cover($url) {
-    background-image: url($url);
+    background: url($url);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
