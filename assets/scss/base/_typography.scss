@@ -32,6 +32,17 @@
 .text-8xl {
     font-size: $font-size-base * 4;//64px
 }
+@media (max-width: 768px) {
+    .text-md-2xl {
+        font-size: $font-size-base;
+    }
+}
+@media (max-width: 568px) {
+    .text-sm-sm {
+        font-size: $font-size-base;
+    }
+}
+
 
 /* ======= 02 font-weight ======= */
 .fw-medium {

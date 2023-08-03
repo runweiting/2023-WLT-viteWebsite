@@ -344,6 +344,16 @@ input[type=submit] {
   font-size: 4rem;
 }
 
+@media (max-width: 768px) {
+  .text-md-2xl {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 568px) {
+  .text-sm-sm {
+    font-size: 1rem;
+  }
+}
 /* ======= 02 font-weight ======= */
 .fw-medium {
   font-weight: 500;
