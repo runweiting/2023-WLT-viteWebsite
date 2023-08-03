@@ -137,15 +137,13 @@ a:hover {
 @media (max-width: 992px) {
   .container {
     max-width: 944px;
-    padding-left: 36px;
-    padding-right: 36px;
   }
 }
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
   }
 }
 @media (max-width: 568px) {
@@ -158,8 +156,6 @@ a:hover {
 @media (max-width: 414px) {
   .container {
     max-width: 366px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -285,6 +281,16 @@ input[type=submit] {
   width: 100%;
 }
 
+@media (max-width: 992px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+@media (max-width: 568px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
 /* ======= 02 border =============== */
 .border-white {
   border-bottom: 1px solid #ffffff;
@@ -598,7 +604,7 @@ input[type=submit] {
   overflow: hidden;
   white-space: nowrap;
 }
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .navbar-wrap {
     flex-direction: column;
     padding-left: 0;
@@ -610,7 +616,7 @@ input[type=submit] {
     align-self: flex-start;
   }
   .navbar-wrap h1 a {
-    margin: 0 0 16px 15px;
+    margin: 16px 15px;
   }
   .navbar-wrap .navbar-menu {
     width: 100%;
@@ -624,6 +630,12 @@ input[type=submit] {
     padding: 12px 0;
     margin: 0;
     text-align: center;
+  }
+}
+@media (max-width: 568px) and (max-width: 768px) {
+  .navbar-wrap .navbar-menu {
+    margin-right: 0;
+    gap: 64px;
   }
 }
 
@@ -997,6 +1009,11 @@ input[type=submit] {
   border-bottom: 8px solid #AA0601;
   opacity: 1;
 }
+@media (max-width: 768px) {
+  .product-menu li {
+    width: 33.3333333333vw;
+  }
+}
 
 /* ------- banner 橫幅 --------------- */
 .banner-product {
@@ -1007,6 +1024,14 @@ input[type=submit] {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (max-width: 768px) {
+  .banner-product {
+    background: url("../images/product-header-sm-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
 
 .banner-model {
   width: 50%;
@@ -1016,9 +1041,17 @@ input[type=submit] {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (max-width: 768px) {
+  .banner-model {
+    background: url("../images/product-header-sm-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
 
 /* ------- product 經典鏡框 ---------- */
-.product-content {
+.product-card {
   row-gap: 80px;
 }
 

@@ -3,10 +3,21 @@
     margin-left: -12px;
     margin-right: -12px;
 }
+
 $max: 12;
 @for $i from 1 through $max {
     .col-#{$i} {
         width: calc($i / 12) * 100%;
+    }
+}
+@media (max-width: 992px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+@media (max-width: 568px) {
+    .col-sm-12 {
+        width: 100%;
     }
 }
 
