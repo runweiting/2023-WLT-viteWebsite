@@ -1056,6 +1056,24 @@ input[type=submit] {
     margin-right: -24px;
   }
 }
+@media (max-width: 568px) {
+  .product-menu {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+@media (max-width: 414px) {
+  .product-menu {
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+}
+@media (max-width: 375px) {
+  .product-menu {
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+}
 
 /* ------- banner 橫幅 --------------- */
 .banner-product {
@@ -1089,7 +1107,7 @@ input[type=submit] {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 250%;
+    background-size: 260%;
   }
 }
 
@@ -1115,7 +1133,142 @@ input[type=submit] {
 @media (max-width: 568px) {
   .product-card {
     row-gap: 24px;
+  }
+  .product-card li:nth-child(6), .product-card li:nth-child(7), .product-card li:nth-child(8), .product-card li:nth-child(9), .product-card li:nth-child(10), .product-card li:nth-child(11), .product-card li:nth-child(12) {
+    display: none;
+  }
+}
+
+.item-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+/* ------- pagination 分頁 ---------- */
+@media (max-width: 568px) {
+  .pagination {
     margin-bottom: 64px;
+  }
+}
+
+.pagination li {
+  border: 1px solid #555555;
+}
+.pagination li:nth-child(2) a, .pagination li:nth-child(3) a, .pagination li:nth-child(4) a, .pagination li:nth-child(5) a, .pagination li:nth-child(6) a {
+  padding: 11.75px 16px;
+}
+.pagination li:nth-child(2) a:hover, .pagination li:nth-child(3) a:hover, .pagination li:nth-child(4) a:hover, .pagination li:nth-child(5) a:hover, .pagination li:nth-child(6) a:hover {
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 1;
+}
+.pagination li:nth-child(1) a, .pagination li:nth-child(7) a {
+  padding: 11px 12px;
+}
+.pagination li:nth-child(1) a:hover, .pagination li:nth-child(7) a:hover {
+  background-color: #F2F2F2;
+  opacity: 1;
+}
+
+/* ------- product-menu ------------- */
+.product-menu {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.product-menu li {
+  width: 33.3333333333%;
+}
+.product-menu li a {
+  border: 1px solid #DCDCDC;
+}
+.product-menu li a:hover {
+  border-bottom: 8px solid #AA0601;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .product-menu {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
+@media (max-width: 568px) {
+  .product-menu {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+@media (max-width: 414px) {
+  .product-menu {
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+}
+@media (max-width: 375px) {
+  .product-menu {
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+}
+
+/* ------- banner 橫幅 --------------- */
+.banner-product {
+  width: 50%;
+  height: 296px;
+  background: url("../images/product-header-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .banner-product {
+    background: url("../images/product-header-sm-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.banner-model {
+  width: 50%;
+  height: 296px;
+  background: url("../images/product-header-4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .banner-model {
+    background: url("../images/product-header-sm-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 260%;
+  }
+}
+
+/* ------- product 經典鏡框 ---------- */
+@media (max-width: 568px) {
+  .product-content {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+  .product-content h3 {
+    margin-bottom: 24px;
+  }
+}
+
+.product-card {
+  row-gap: 80px;
+}
+@media (max-width: 768px) {
+  .product-card li:nth-child(11), .product-card li:nth-child(12) {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  .product-card {
+    row-gap: 24px;
   }
   .product-card li:nth-child(6), .product-card li:nth-child(7), .product-card li:nth-child(8), .product-card li:nth-child(9), .product-card li:nth-child(10), .product-card li:nth-child(11), .product-card li:nth-child(12) {
     display: none;
