@@ -1,22 +1,18 @@
 .subnav {
-  padding-top: 48px;
-  padding-bottom: 32px;
-  padding-left: 12px;
-  padding-right: 12px;
-  @include iphone {
+  padding: 48px 12px 32px;
+  @include md-768px {
     padding-left: 24px;
     padding-right: 24px;
   }
-  @include moblie {
+  @include sm-568px {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 20px;
+    padding: 24px 14px 20px;
   }
 }
 .subnavBox {
-  @include iphone {
+  @include md-768px {
     align-items: center;
     margin-bottom: 24px;
   }
@@ -26,12 +22,12 @@
       padding-left: 0;
     }
     a {
-      @include iphone {
+      @include md-768px {
         margin-right: 0;
         padding: 8px 24px;
       }
     }
-    @include moblie {
+    @include sm-568px {
       display: none;
     }
   }
@@ -40,34 +36,34 @@
       margin-right: 0;
     }
     li a {
-      @include iphone {
+      @include md-768px {
         margin: 0;
       }
     }
     a {
-      @include iphone {
+      @include md-768px {
         margin-right: 16px;
       }
     }
     img {
       height: 48px;
-      @include iphone {
+      @include md-768px {
         height: 40px;
       }
-      @include moblie {
+      @include sm-568px {
         height: 24px;
       }
     }
-    @include iphone {
+    @include md-768px {
       gap: 16px;
     }
-    @include moblie {
+    @include sm-568px {
       gap: 8px;
     }
     
   }
   .subnav-icon-l {
-    @include moblie {
+    @include sm-568px {
       margin: 0;
       .material-symbols-outlined {
         font-size: 18px;
@@ -77,11 +73,11 @@
   }
 
 .copyright {
-  @include iphone {
+  @include md-768px {
     padding: 32px 24px 40px;
   }
-  @include moblie {
-    padding: 20px 15px 24px;
+  @include sm-568px {
+    padding: 20px 14px 24px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;

@@ -9,7 +9,7 @@
                 opacity: 1;
             }
         }
-        @include iphone {
+        @include md-768px {
             width: calc(100vw / 3);
         }
     }
@@ -19,7 +19,7 @@
     width: 50%;
     height: 296px;
     @include bg-cover('../images/product-header-1.png');
-    @include iphone {
+    @include md-768px {
         @include bg-cover('../images/product-header-sm-1.png');
     }
 }
@@ -27,7 +27,7 @@
     width: 50%;
     height: 296px;
     @include bg-cover('../images/product-header-2.png');
-    @include iphone {
+    @include md-768px {
         @include bg-cover('../images/product-header-sm-2.png');
     }
 }

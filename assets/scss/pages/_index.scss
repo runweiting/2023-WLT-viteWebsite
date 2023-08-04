@@ -9,7 +9,7 @@
         display: inline-block;
         padding: 6px 12px;
     }
-    @include moblie {
+    @include sm-568px {
         height: 396px;
         @include bg-cover('../images/home-header-sm.png');
         h2 {
@@ -20,13 +20,13 @@
 
 /* ------- 服務特點 ------------- */
 .feature {
-    @include moblie {
+    @include sm-568px {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 }
 .feature ul {
-    @include ipad {
+    @include lg-992px {
         flex-wrap: wrap;
         li {
             width: calc(50% - 24px);
@@ -35,12 +35,12 @@
             }
         }
     }
-    @include moblie {
+    @include sm-568px {
         li {
             width: 100%;
         }
     }
-    @include moblie-s {
+    @include xs-414px {
         .row {
             margin-left: 0;
             margin-right: 0;
@@ -50,13 +50,13 @@
 
 /* ------- 經典鏡框 ------------- */
 .product {
-    @include iphone {
+    @include md-768px {
         .row {
             margin-left: 0;
             margin-right: 0;
         }
     }
-    @include moblie {
+    @include sm-568px {
         padding-top: 40px;
         padding-bottom: 40px;
         .product-title {
@@ -65,7 +65,7 @@
     }
 }
 .product ul {
-    @include ipad {
+    @include lg-992px {
         flex-direction: column;
         align-items: center;
         gap: 24px;
@@ -74,7 +74,7 @@
             padding: 0;
         }
     }
-    @include moblie {
+    @include sm-568px {
         margin: 0;
         li {
             width: 100%;
@@ -96,7 +96,7 @@
         max-width: 100%;
         overflow: hidden;
     }
-    @include ipad {
+    @include lg-992px {
         max-height: 960px;
         ul {
             flex-direction: column;
@@ -109,10 +109,10 @@
             max-height: 240px;
         }
     }
-    @include iphone {
+    @include md-768px {
         @include bg-cover('../images/index-bg-md.png');
     }
-    @include moblie {
+    @include sm-568px {
         max-height: 820px;
         @include bg-cover('../images/index-bg-sm.png');
         .container {
@@ -140,7 +140,7 @@
     .textBox {
         height: 173px;
     }
-    @include ipad {
+    @include lg-992px {
         ul {
             flex-wrap: wrap;
             li {
@@ -157,7 +157,7 @@
         }
 
     }
-    @include iphone {
+    @include md-768px {
         .row {
             margin-left: 0;
             margin-right: 0;
@@ -171,7 +171,7 @@
             }
         }
     }
-    @include moblie {
+    @include sm-568px {
         padding-top: 40px;
         padding-bottom: 40px;
         h2 {
@@ -189,13 +189,13 @@
 /* ------- 聯絡我們 ------------- */
 .formArea {
     max-width: 100%;
-    @include moblie {
+    @include sm-568px {
         padding-top: 40px;
         padding-bottom: 40px;
     }
     .contact {
         width: 50%;
-        @include ipad {
+        @include lg-992px {
             width: 75%;
             h2 {
                 margin-bottom: 24px;
@@ -204,7 +204,7 @@
                 font-size: 16px;
             }
         }
-        @include moblie {
+        @include sm-568px {
             width: 100%;
             .checkArea {
                 margin-bottom: 24px;

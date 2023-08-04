@@ -6,7 +6,7 @@
     @include hide-text;
   }
   .navbar-menu {
-    @include moblie {
+    @include sm-568px {
       width: 100%;
       flex-wrap: wrap;
       li {
@@ -20,7 +20,7 @@
       }
     }
   }
-  @include moblie {
+  @include sm-568px {
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
