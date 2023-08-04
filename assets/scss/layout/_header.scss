@@ -1,24 +1,10 @@
+/* ------- navbar 導航 ------- */
 .navbar-wrap {
   h1 a {
     width: 80px;
     height: 48px;
     @include bg-cover('../images/logo-white.png');
     @include hide-text;
-  }
-  .navbar-menu {
-    @include sm-568px {
-      width: 100%;
-      flex-wrap: wrap;
-      li {
-        width: calc(50% - 2px);
-        border: 1px solid $white;
-      }
-      a {
-        padding: 12px 0;
-        margin: 0;
-        text-align: center;
-      }
-    }
   }
   @include sm-568px {
     flex-direction: column;
@@ -29,8 +15,23 @@
     h1 {
       align-self: flex-start;
       a {
-        margin: 16px 15px;
+        margin: 0 0 16px 15px;
       }
+    }
+  }
+}
+.navbar-menu {
+  @include sm-568px {
+    width: 100%;
+    flex-wrap: wrap;
+    li {
+      width: calc(50% - 2px);
+      border: 1px solid $white;
+    }
+    a {
+      padding: 12px 0;
+      margin: 0;
+      text-align: center;
     }
   }
 }

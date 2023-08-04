@@ -29,7 +29,6 @@
     @include lg-992px {
         flex-wrap: wrap;
         li {
-            width: calc(50% - 24px);
             &:nth-child(1), &:nth-child(2) {
                 margin-bottom: 36px;
             }

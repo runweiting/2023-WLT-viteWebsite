@@ -13,22 +13,27 @@
 }
 
 /* ======= 03 media queries ======= */
-@mixin ipad {
+@mixin lg-992px {
     @media (max-width: 992px) {
         @content
     }
 }
-@mixin iphone {
+@mixin md-768px {
     @media (max-width: 768px) {
         @content
     }
 }
-@mixin moblie {
+@mixin md-767px {
+    @media (max-width: 767px) {
+        @content
+    }
+}
+@mixin sm-568px {
     @media (max-width: 568px) {
         @content
     }
 }
-@mixin moblie-s {
+@mixin xs-414px {
     @media (max-width: 414px) {
         @content
     }
