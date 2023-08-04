@@ -124,10 +124,9 @@ a:hover {
   box-sizing: border-box;
 }
 
-* {
-  outline: 1px solid yellowgreen;
-}
-
+/*{
+outline: 1px solid yellowgreen;
+}*/
 /*--------------------------------*/
 .container {
   max-width: 1320px;
