@@ -379,7 +379,7 @@ input[type=submit] {
     font-size: 1rem;
   }
   .text-sm-4xl {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .text-sm-6xl {
     font-size: 1.5rem;
@@ -395,6 +395,9 @@ input[type=submit] {
   }
 }
 @media (max-width: 414px) {
+  .text-xs-4xl {
+    font-size: 1.5rem;
+  }
   .text-xs-5xl {
     font-size: 1rem;
   }
@@ -628,16 +631,24 @@ input[type=submit] {
   }
 }
 
+@media (max-width: 767px) {
+  .navbar-menu li a {
+    margin-right: 24px;
+  }
+  .navbar-menu li:last-child a {
+    margin-right: 0;
+  }
+}
 @media (max-width: 568px) {
   .navbar-menu {
     width: 100%;
     flex-wrap: wrap;
   }
   .navbar-menu li {
-    width: calc(50% - 2px);
+    width: 50%;
     border: 1px solid #ffffff;
   }
-  .navbar-menu a {
+  .navbar-menu li a {
     padding: 12px 0;
     margin: 0;
     text-align: center;
@@ -1025,6 +1036,10 @@ input[type=submit] {
 }
 
 /* ------- product-menu ------------- */
+.product-menu {
+  margin-left: -12px;
+  margin-right: -12px;
+}
 .product-menu li {
   width: 33.3333333333%;
 }
@@ -1036,8 +1051,9 @@ input[type=submit] {
   opacity: 1;
 }
 @media (max-width: 768px) {
-  .product-menu li {
-    width: 33.3333333333vw;
+  .product-menu {
+    margin-left: -24px;
+    margin-right: -24px;
   }
 }
 
@@ -1073,18 +1089,50 @@ input[type=submit] {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 250%;
   }
 }
 
 /* ------- product 經典鏡框 ---------- */
+@media (max-width: 568px) {
+  .product-content {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+  .product-content h3 {
+    margin-bottom: 24px;
+  }
+}
+
 .product-card {
   row-gap: 80px;
+}
+@media (max-width: 768px) {
+  .product-card li:nth-child(11), .product-card li:nth-child(12) {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  .product-card {
+    row-gap: 24px;
+    margin-bottom: 64px;
+  }
+  .product-card li:nth-child(6), .product-card li:nth-child(7), .product-card li:nth-child(8), .product-card li:nth-child(9), .product-card li:nth-child(10), .product-card li:nth-child(11), .product-card li:nth-child(12) {
+    display: none;
+  }
 }
 
 .item-icon {
   width: 24px;
   height: 24px;
   border-radius: 4px;
+}
+
+/* ------- pagination 分頁 ---------- */
+@media (max-width: 568px) {
+  .pagination {
+    margin-bottom: 64px;
+  }
 }
 
 .pagination li {

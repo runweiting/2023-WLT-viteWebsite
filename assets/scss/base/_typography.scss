@@ -57,7 +57,7 @@
         font-size: $font-size-base;
     }
     .text-sm-4xl {
-        font-size: $font-size-base * 1.5;
+        font-size: $font-size-base;
     }
     .text-sm-6xl {
         font-size: $font-size-base * 1.5;
@@ -73,6 +73,9 @@
     }
 }
 @media (max-width: 414px) {
+    .text-xs-4xl {
+        font-size: $font-size-base * 1.5;
+    }
     .text-xs-5xl {
         font-size: $font-size-base;
     }
