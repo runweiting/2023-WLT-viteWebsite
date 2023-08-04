@@ -1243,7 +1243,6 @@ input[type=submit] {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 260%;
   }
 }
 
@@ -1262,6 +1261,7 @@ input[type=submit] {
   row-gap: 80px;
 }
 @media (max-width: 768px) {
+  .product-card li:nth-child(7), .product-card li:nth-child(8), .product-card li:nth-child(9), .product-card li:nth-child(10),
   .product-card li:nth-child(11), .product-card li:nth-child(12) {
     display: none;
   }
