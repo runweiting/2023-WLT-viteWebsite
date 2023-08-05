@@ -7,7 +7,8 @@ $color-primary: #AA0601;
 $color-secondary: #650300;
 $color-light: #FBF2F2;
 $black: #000000;
-$grey: #707070;
+$grey-70: #707070;
+$grey-55: #555555;
 $white: #ffffff;
 $link-light: #B75929;
 $link-dark: #5F3E2D;
@@ -19,8 +20,14 @@ $link-dark: #5F3E2D;
 .color-secondary {
     color: $color-secondary;
 }
-.grey {
-    color: $grey;
+.black {
+    color: $black;
+}
+.grey-70 {
+    color: $grey-70;
+}
+.grey-55 {
+    color: $grey-55;
 }
 .white {
     color: #ffffff;

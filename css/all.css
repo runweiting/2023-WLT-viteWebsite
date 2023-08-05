@@ -12,8 +12,16 @@
   color: #650300;
 }
 
-.grey {
+.black {
+  color: #000000;
+}
+
+.grey-70 {
   color: #707070;
+}
+
+.grey-55 {
+  color: #555555;
 }
 
 .white {
