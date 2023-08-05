@@ -41,9 +41,6 @@
   background-color: #5F3E2D;
 }
 
-/* ======= 01 utils ======= */
-/* ======= 02 background-image ======= */
-/* ======= 03 media queries ======= */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,12 +61,9 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 1rem;
-  font-family: "Roboto", "Noto Sans TC", sans-serif;
-  font-weight: normal;
-  color: #000000;
+  font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
-  line-height: 1.5;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -101,7 +95,24 @@ table {
   border-spacing: 0;
 }
 
-/* ======= 自訂 reset ======= */
+/* ======= 01 utils ======= */
+/* ======= 02 background-image ======= */
+/* ======= 03 media queries ======= */
+*, *::before, ::after {
+  box-sizing: border-box;
+}
+
+/*{
+outline: 1px solid yellowgreen;
+}*/
+/*--------------------------------*/
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -119,56 +130,6 @@ a:hover {
   opacity: 0.5;
 }
 
-/*--------------------------------*/
-*, *::before, ::after {
-  box-sizing: border-box;
-}
-
-/*{
-outline: 1px solid yellowgreen;
-}*/
-/*--------------------------------*/
-.container {
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 0 12px;
-}
-@media (max-width: 992px) {
-  .container {
-    max-width: 968px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    max-width: 744px;
-    padding: 0 24px;
-  }
-}
-@media (max-width: 767px) {
-  .container {
-    max-width: 743px;
-    padding: 0 24px;
-  }
-}
-@media (max-width: 568px) {
-  .container {
-    max-width: 568px;
-    padding: 0 14px;
-  }
-}
-@media (max-width: 414px) {
-  .container {
-    max-width: 390px;
-  }
-}
-
-.material-symbols-outlined {
-  vertical-align: middle;
-  font-size: 2.25rem;
-  color: #ffffff;
-}
-
-/*--------------------------------*/
 button {
   font-family: "Roboto", "Noto Sans TC", sans-serif;
   border: none;
@@ -228,6 +189,48 @@ input[type=submit] {
   margin: 0;
   color: #ffffff;
   background-color: #AA0601;
+}
+
+/*--------------------------------*/
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 968px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 744px;
+    padding: 0 24px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 743px;
+    padding: 0 24px;
+  }
+}
+@media (max-width: 568px) {
+  .container {
+    max-width: 568px;
+    padding: 0 14px;
+  }
+}
+@media (max-width: 414px) {
+  .container {
+    max-width: 390px;
+  }
+}
+
+/*--------------------------------*/
+.material-symbols-outlined {
+  vertical-align: middle;
+  font-size: 2.25rem;
+  color: #ffffff;
 }
 
 /* ======= 01 customize grid ======= */

@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 
 @import "utils/variable";
-@import "utils/mixin";
 @import "base/reset";
+@import "utils/mixin";
+@import "base/base";
 
 @import "layout/grid";
 @import "base/typography";
