@@ -1086,7 +1086,7 @@ input[type=submit] {
 }
 
 /* ------- banner 橫幅 --------------- */
-.banner-product {
+.banner-l1 {
   width: 50%;
   height: 296px;
   background: url("../images/product-header-1.png");
@@ -1095,7 +1095,7 @@ input[type=submit] {
   background-position: center;
 }
 @media (max-width: 768px) {
-  .banner-product {
+  .banner-l1 {
     background: url("../images/product-header-sm-1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1103,7 +1103,7 @@ input[type=submit] {
   }
 }
 
-.banner-model {
+.banner-r1 {
   width: 50%;
   height: 296px;
   background: url("../images/product-header-2.png");
@@ -1112,7 +1112,7 @@ input[type=submit] {
   background-position: center;
 }
 @media (max-width: 768px) {
-  .banner-model {
+  .banner-r1 {
     background: url("../images/product-header-sm-2.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1222,7 +1222,7 @@ input[type=submit] {
 }
 
 /* ------- banner 橫幅 --------------- */
-.banner-product {
+.banner-l2 {
   width: 50%;
   height: 296px;
   background: url("../images/product-header-3.png");
@@ -1231,7 +1231,7 @@ input[type=submit] {
   background-position: center;
 }
 @media (max-width: 768px) {
-  .banner-product {
+  .banner-l2 {
     background: url("../images/product-header-sm-3.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1239,7 +1239,7 @@ input[type=submit] {
   }
 }
 
-.banner-model {
+.banner-r2 {
   width: 50%;
   height: 296px;
   background: url("../images/product-header-4.png");
@@ -1248,7 +1248,7 @@ input[type=submit] {
   background-position: center;
 }
 @media (max-width: 768px) {
-  .banner-model {
+  .banner-r2 {
     background: url("../images/product-header-sm-4.png");
     background-size: cover;
     background-repeat: no-repeat;

@@ -30,7 +30,7 @@
     }
 }
 /* ------- banner 橫幅 --------------- */
-.banner-product {
+.banner-l2 {
     width: 50%;
     height: 296px;
     @include bg-cover('../images/product-header-3.png');
@@ -38,7 +38,7 @@
         @include bg-cover('../images/product-header-sm-3.png');
     }
 }
-.banner-model {
+.banner-r2 {
     width: 50%;
     height: 296px;
     @include bg-cover('../images/product-header-4.png');
