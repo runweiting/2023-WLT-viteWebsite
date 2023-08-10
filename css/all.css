@@ -1172,6 +1172,10 @@ input[type=submit] {
   background-color: #F2F2F2;
   opacity: 1;
 }
+.pagination li .active {
+  background-color: #000000;
+  color: #ffffff;
+}
 
 /* ------- product-menu ------------- */
 .product-menu li {
@@ -1280,4 +1284,8 @@ input[type=submit] {
 .pagination li:nth-child(1) a:hover, .pagination li:nth-child(7) a:hover {
   background-color: #F2F2F2;
   opacity: 1;
+}
+.pagination li .active {
+  background-color: #000000;
+  color: #ffffff;
 }
