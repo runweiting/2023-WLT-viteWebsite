@@ -110,9 +110,10 @@ table {
   box-sizing: border-box;
 }
 
-/*{
-outline: 1px solid yellowgreen;
-}*/
+* {
+  outline: 1px solid yellowgreen;
+}
+
 /*--------------------------------*/
 body {
   font-family: "Roboto", "Noto Sans TC", sans-serif;
@@ -149,6 +150,7 @@ button:hover {
 }
 
 label {
+  display: block;
   cursor: pointer;
 }
 
@@ -1047,8 +1049,8 @@ input[type=submit] {
 
 /* ------- product-menu ------------- */
 .product-menu {
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-left: -24px;
+  margin-right: -24px;
 }
 .product-menu li {
   width: 33.3333333333%;
