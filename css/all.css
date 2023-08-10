@@ -205,7 +205,8 @@ input[type=submit] {
 .container {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 @media (max-width: 992px) {
   .container {
@@ -215,24 +216,35 @@ input[type=submit] {
 @media (max-width: 768px) {
   .container {
     max-width: 744px;
-    padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 @media (max-width: 767px) {
   .container {
     max-width: 743px;
-    padding: 0 24px;
   }
 }
 @media (max-width: 568px) {
   .container {
     max-width: 568px;
-    padding: 0 14px;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 }
 @media (max-width: 414px) {
   .container {
     max-width: 390px;
+  }
+}
+
+.container-product-menu {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+@media (max-width: 414px) {
+  .container-product-menu {
+    max-width: 100%;
   }
 }
 
@@ -547,6 +559,11 @@ input[type=submit] {
 }
 
 /*--------------------------------*/
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1048,43 +1065,16 @@ input[type=submit] {
 }
 
 /* ------- product-menu ------------- */
-.product-menu {
-  margin-left: -24px;
-  margin-right: -24px;
-}
 .product-menu li {
   width: 33.3333333333%;
 }
 .product-menu li a {
   border: 1px solid #DCDCDC;
+  border-bottom: 8px solid transparent;
 }
 .product-menu li a:hover {
   border-bottom: 8px solid #AA0601;
   opacity: 1;
-}
-@media (max-width: 768px) {
-  .product-menu {
-    margin-left: -24px;
-    margin-right: -24px;
-  }
-}
-@media (max-width: 568px) {
-  .product-menu {
-    margin-left: -12px;
-    margin-right: -12px;
-  }
-}
-@media (max-width: 414px) {
-  .product-menu {
-    margin-left: -28px;
-    margin-right: -28px;
-  }
-}
-@media (max-width: 375px) {
-  .product-menu {
-    margin-left: -14px;
-    margin-right: -14px;
-  }
 }
 
 /* ------- banner 橫幅 --------------- */
@@ -1184,43 +1174,16 @@ input[type=submit] {
 }
 
 /* ------- product-menu ------------- */
-.product-menu {
-  margin-left: -12px;
-  margin-right: -12px;
-}
 .product-menu li {
   width: 33.3333333333%;
 }
 .product-menu li a {
   border: 1px solid #DCDCDC;
+  border-bottom: 8px solid transparent;
 }
 .product-menu li a:hover {
   border-bottom: 8px solid #AA0601;
   opacity: 1;
-}
-@media (max-width: 768px) {
-  .product-menu {
-    margin-left: -24px;
-    margin-right: -24px;
-  }
-}
-@media (max-width: 568px) {
-  .product-menu {
-    margin-left: -12px;
-    margin-right: -12px;
-  }
-}
-@media (max-width: 414px) {
-  .product-menu {
-    margin-left: -28px;
-    margin-right: -28px;
-  }
-}
-@media (max-width: 375px) {
-  .product-menu {
-    margin-left: -14px;
-    margin-right: -14px;
-  }
 }
 
 /* ------- banner 橫幅 --------------- */

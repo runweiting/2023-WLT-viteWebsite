@@ -1,32 +1,15 @@
 /* ------- product-menu ------------- */
 .product-menu {
-    margin-left: -24px;
-    margin-right: -24px;
     li {
         width: calc(100% / 3);
         a {
             border: 1px solid #DCDCDC;
+            border-bottom: 8px solid transparent;
             &:hover {
                 border-bottom: 8px solid $color-primary;
                 opacity: 1;
             }
         }
-    }
-    @include md-768px {
-        margin-left: -24px;
-        margin-right: -24px;
-    }
-    @include sm-568px {
-        margin-left: -12px;
-        margin-right: -12px;
-    }
-    @include xs-414px {
-        margin-left: -28px;
-        margin-right: -28px;
-    }
-    @media (max-width: 375px) {
-        margin-left: -14px;
-        margin-right: -14px;
     }
 }
 /* ------- banner 橫幅 --------------- */
